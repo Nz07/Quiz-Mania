@@ -87,7 +87,7 @@ while($row = mysqli_fetch_assoc($sql)) {
     <div class="qu-box">
       <h1 id ="time">Quiz</h1>
     </div>
-<b style="font-size:20px;color:#4b5de6;">Question time(sec):</b> <input type="number" value="<?php echo $t ?>" id = "time" name="time"oninput="checktime()" style="width: 40%;  padding: 1rem 3rem;  font-size: 1rem;  background-color: var(--gray);  border-radius: .5rem;  border: 0.125rem solid var(--white);   outline: none;" required>
+<b style="font-size:20px;color:#4b5de6;">Question time(sec):</b> <input type="number" value="<?php echo $t ?>" id = "times" name="time"oninput="checktime()" style="width: 40%;  padding: 1rem 3rem;  font-size: 1rem;  background-color: var(--gray);  border-radius: .5rem;  border: 0.125rem solid var(--white);   outline: none;" required>
 <i id = check_time style="margin-left:10px;color:green;font-size:20px;"></i>
                                 <br><br>
 
@@ -289,7 +289,7 @@ while($row = mysqli_fetch_assoc($sql)) {
     
     jQuery.ajax({
     url: "changetime.php",
-    data:'time='+$("#time").val(),
+    data:'time='+$("#times").val(),
     type: "POST",
     success:function(data){
         $("#check_time").html(data);
