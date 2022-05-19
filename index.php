@@ -409,6 +409,16 @@
             </ul>
           </div>
 
+           <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Created By</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i>Gursewak Singh</li>
+              <li><i class="bx bx-chevron-right"></i>Nimit Jain</li>
+              <li><i class="bx bx-chevron-right"></i>Naitik Jain</li>
+              
+            </ul>
+          </div>
+
          
 
           <div class="col-lg-3 col-md-6 footer-links">
