@@ -348,6 +348,16 @@ $e=$row['email'];
           </div>
 
 
+           <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Created By</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i>Gursewak Singh</li>
+              <li><i class="bx bx-chevron-right"></i>Nimit Jain</li>
+              <li><i class="bx bx-chevron-right"></i>Naitik Jain</li>
+              
+            </ul>
+          </div>
+
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
             <p></p>
@@ -367,11 +377,7 @@ $e=$row['email'];
       <div class="copyright">
         &copy; Copyright <strong><span>Quiz-Mania</span></strong>. All Rights Reserved
       </div> -->
-      <div class="credits">
-
-        Designed by Gursewak Singh, Nimit Jain, Naitik Jain</a>
-      </div>
-    </div>
+     
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
