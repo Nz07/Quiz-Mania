@@ -51,13 +51,12 @@ $e=$row['email'];
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li>&emsp; &emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&nbsp;</li>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+         <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
+   
       <div class="dropdown">
       <div class="dropbtn"><button class="bi-person-circle" style="font-size:30px; border:0cm; background-color:white;" >  </button></div>
   <div class="dropdown-content">
@@ -67,7 +66,7 @@ $e=$row['email'];
   </div>
 </div>
 
-          
+        </nav>     
          
 
       <!-- .navbar -->
