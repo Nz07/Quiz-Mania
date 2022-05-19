@@ -48,7 +48,7 @@ $message_body = '
 <span>From, </span>
 <b style="color:#4b5de6">Quizmania</b>
 <br><br>
-<p>For every verification otp will be differnt,So make to check otp for every verification</p>
+<p>For every verification otp will be different,So make to check otp for every verification</p>
 ';
 $mail->Body = $message_body;
 
