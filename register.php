@@ -62,7 +62,7 @@
                     
                     <p>
                         <span>Already have an account?</span>
-                        <b class="pointer"><a href="login.php">Sign up here</a></b>
+                        <b class="pointer"><a href="login.php">Sign in</a></b>
                     </p>
                 </form>
                 </div>
