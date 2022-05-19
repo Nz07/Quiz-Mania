@@ -53,12 +53,10 @@ while($row = mysqli_fetch_assoc($sql)) {
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; </li>
           <li><a class="nav-link scrollto active" href="second_index.php">Home</a></li>
-          &emsp; 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
+     
       <div class="dropdown">
       <div class="dropbtn"><button class="bi-person-circle" style="font-size:30px; border:0cm; background-color:white;" >  </button></div>
   <div class="dropdown-content">
@@ -67,7 +65,7 @@ while($row = mysqli_fetch_assoc($sql)) {
     <a href="logout.php">Logout</a>
   </div>
 </div>
-
+ </nav>
           
          
 
@@ -244,6 +242,16 @@ while($row = mysqli_fetch_assoc($sql)) {
             </ul>
           </div>
 
+           <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Created By</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i>Gursewak Singh</li>
+              <li><i class="bx bx-chevron-right"></i>Nimit Jain</li>
+              <li><i class="bx bx-chevron-right"></i>Naitik Jain</li>
+              
+            </ul>
+          </div>
+
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
@@ -264,10 +272,7 @@ while($row = mysqli_fetch_assoc($sql)) {
       <!-- <div class="copyright">
         &copy; Copyright <strong><span>Quiz-Mania</span></strong>. All Rights Reserved
       </div>  -->
-      <div class="credits" >
-        Designed by Quiz-Mania</a>
-      </div>
-    </div>
+   
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
