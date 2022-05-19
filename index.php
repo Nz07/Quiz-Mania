@@ -471,7 +471,7 @@
     var frm = document.getElementsByName('contact-form');
   swal({
   title: "Feedback Recieved",
-  text: "Thank you for conatcting us",
+  text: "Thank you for contacting us",
   type: "success",
 });
   
