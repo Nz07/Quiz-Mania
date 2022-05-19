@@ -67,12 +67,9 @@ $js = $row['js'];
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; </li>
           <li><a class="nav-link scrollto active" href="second_index.php">Home</a></li>
-          &emsp; 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
       <div class="dropdown">
       <div class="dropbtn"><button class="bi-person-circle" style="font-size:30px; border:0cm; background-color:white;" >  </button></div>
   <div class="dropdown-content">
@@ -81,8 +78,8 @@ $js = $row['js'];
     <a href="logout.php">Logout</a>
   </div>
 </div>
+     </nav>
 
-          
          
 
       <!-- .navbar -->
